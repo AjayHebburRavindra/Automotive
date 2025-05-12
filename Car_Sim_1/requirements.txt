@@ -1,0 +1,22 @@
+Python Libraries
+numpy: Fundamental package for numerical computing with Python.
+matplotlib: Plotting library for Python, used for visualizing data.
+pandas: Data manipulation and analysis library.
+pygame: Library for writing video games or other multimedia applications.
+pybullet: Physics engine for simulating robotics and various mechanics in 3D.
+Additional Tools and Resources
+Anaconda: Python distribution platform that includes commonly used libraries and tools for scientific computing.
+Visual Studio Code (VS Code): Integrated development environment (IDE) for writing and debugging code.
+PyBullet Data: Additional data files required by PyBullet for simulations.
+File Structure and Organization
+URDF Files: These are XML files that describe the physical properties of objects in PyBullet simulations. You'll need these for specific objects like the racecar used in your simulation.
+Project Setup and Management
+Project Folder: Ensure your project is organized into separate files or modules (car_sim.py, trajectory_data.py, 3D_sim.py, and final_sim.py as you've structured).
+Version Control: Optionally, consider using Git for version control to manage changes and collaborate effectively.
+Documentation and Learning Resources
+Python Documentation: Official documentation for Python and each library (numpy, matplotlib, pandas, pygame, pybullet).
+Tutorials and Examples: Online resources and tutorials for learning Python, PyBullet, and simulation concepts.
+Notes
+Installation: Use pip to install the libraries listed in requirements.txt using the command pip install -r requirements.txt.
+Environment: Activate your Anaconda environment (conda activate car_sim) before installing dependencies.
+Updates: Periodically update libraries to their latest versions for bug fixes and new features (pip install --upgrade package_name).
